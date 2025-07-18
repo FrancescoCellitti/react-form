@@ -14,10 +14,10 @@ function App() {
   return (
     <>
       <div className="container">
-
+    <h1>My Blog</h1>
         <form onSubmit={handleSubmit}>
-          <div className="d-flex">
-            <input className="'form-control mt-2'" placeholder="'insert here'" type="text" onChange={event => setNewTask(event.target.value)} />
+          <div className="d-flex mt-5">
+            <input className="'form-control'" placeholder="'insert here'" type="text" onChange={event => setNewTask(event.target.value)} />
             <button type='button' className='btn btn-primary mx-2'>save</button>
           </div>
         </form>
